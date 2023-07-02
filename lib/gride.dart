@@ -32,7 +32,7 @@ class _Gride_viewState extends State<Gride_view> {
                   backgroundColor: Colors.black54,
                   title: Text(place[index]),
                   subtitle: Text('Batad rice terraces'),
-                  trailing: Icon(Icons.star),
+                  trailing: Icon(Icons.grade_outlined),
                 ),
                   child: Image.asset(image[index])
               );
